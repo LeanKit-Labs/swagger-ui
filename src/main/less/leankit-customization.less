@@ -1,0 +1,44 @@
+body {
+  font-family: "Helvetica Neue", Helvetica-Neue;
+}
+
+.swagger-section {
+  #header {
+    background: #272B24;
+
+    #logo {
+      background: transparent url(../images/leankit-logo.svg) no-repeat;
+      background-size: 30px 30px;
+      font-weight: 100;
+      padding: 2px 0 5px 40px;
+    }
+  }
+
+  a#logo {
+    text-transform: capitalize;
+
+    &::before {
+      content: "LeanKit "
+    }
+
+    &::after {
+      content: " docs"
+    }
+  }
+
+  #api_selector {
+    display: none;
+  }
+
+  #input_baseUrl {
+    width: 275px;
+  }
+
+  #input_apiKey {
+    width: 150px;
+  }
+
+  #explore {
+    background: #95C83E;
+  }
+}

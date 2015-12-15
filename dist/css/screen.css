@@ -82,7 +82,7 @@
 .swagger-section pre .vhdl .attribute,
 .swagger-section pre .clojure .attribute,
 .swagger-section pre .coffeescript .property {
-  color: #8888ff;
+  color: #88F;
 }
 .swagger-section pre .keyword,
 .swagger-section pre .id,
@@ -1279,4 +1279,37 @@
   min-height: 30px;
   text-align: center;
   padding-top: 10px;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica-Neue;
+}
+.swagger-section #header {
+  background: #272B24;
+}
+.swagger-section #header #logo {
+  background: transparent url(../images/leankit-logo.svg) no-repeat;
+  background-size: 30px 30px;
+  font-weight: 100;
+  padding: 2px 0 5px 40px;
+}
+.swagger-section a#logo {
+  text-transform: capitalize;
+}
+.swagger-section a#logo::before {
+  content: "LeanKit ";
+}
+.swagger-section a#logo::after {
+  content: " docs";
+}
+.swagger-section #api_selector {
+  display: none;
+}
+.swagger-section #input_baseUrl {
+  width: 275px;
+}
+.swagger-section #input_apiKey {
+  width: 150px;
+}
+.swagger-section #explore {
+  background: #95C83E;
 }
